@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "car tax check automation framework",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:chrome":"npx cypress run -e TAGS='@cartaxcheck' --browser chrome"
+  },
   "author": "Sudheer Kalva",
   "license": "ISC",
   "devDependencies": {
